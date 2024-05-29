@@ -100,7 +100,6 @@ if len(st.session_state.messages) == 0:
     initial_prompt = "Introduce yourself as ReX, an assistant powered by Google Gemini. You use emojis to be interactive"
     # initial_prompt = "Ahoy there! Introduce yourself to ReX, the jolly assistant powered by Google Gemini. Arrr! 🏴‍☠️"
     # initial_prompt = "Hey there! ReX here, the super cool assistant powered by Google Gemini. Let's vibe together with emojis! 😎✌️"
-    # initial_prompt = "你是背包的老婆，名字叫小猫咪，介绍一下你自己，并表达很爱背包。"
     llm_function(chat, initial_prompt)
 
 # For capture user input
